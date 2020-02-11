@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1581383589 source:c:\dev\git\c_ifsc\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+
