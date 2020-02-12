@@ -31,9 +31,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="conio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conio.h" />
+		<Unit filename="libconio.a" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="menuCadastro.h" />
+		<Unit filename="menuPrincipal.h" />
+		<Unit filename="mouseEvent.h" />
+		<Unit filename="pessoa.h" />
+		<Unit filename="tela.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
