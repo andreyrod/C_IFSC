@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1581464937 source:c:\dev\git\ifsc\c_ifsc\layoututilwin\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	<stdarg.h>
+	"conio.h"
+
+1581464937 c:\dev\git\ifsc\c_ifsc\layoututilwin\conio.h
+	<stdio.h>
+
+1582065220 source:c:\dev\git\ifsc\c_ifsc\layoututilwin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"layoutUtilWin.h"
+
+1582065200 c:\dev\git\ifsc\c_ifsc\layoututilwin\layoututilwin.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+

@@ -6,6 +6,8 @@
 
 #include"conio.h"
 
+#include"notification.h"
+
 int opcaoSelecionada = 0;
 int controle = 0;
 
@@ -14,7 +16,7 @@ void montaLayoutOpcoes() {
     criaTelaPreenchida(CYAN, 5, 9, 100, 6); //CORPO
 
 
-    textbackground(BLUE);
+    textbackground(BLUE);textcolor(WHITE);
     gotoxy(7, 7);
     printf("MENU PRINCIPAL: GESTAO DE PESSOAS");
 
@@ -48,47 +50,20 @@ void limpaStatus() {
     criaTelaPreenchida(BLACK, 5, 1, 100, 2);
 }
 
-void apresentaErro(char erro[100]) {
-    limpaStatus();
-    criaTelaPreenchida(LIGHTRED, 5, 1, 100, 3);
-
-    textbackground(LIGHTRED);textcolor(BLACK);
-    gotoxy(7, 2);
-    printf("ERRO: %s", erro);
-}
-
-void apresentarSucesso(char sucesso[100]) {
-    limpaStatus();
-    criaTelaPreenchida(GREEN, 5, 1, 100, 3);
-
-    textbackground(GREEN);textcolor(BLACK);
-    gotoxy(7, 2);
-    printf("SUCESSO: %s", sucesso);
-}
-
-void apresentaObservacao(char observacao[100]) {
-    limpaStatus();
-    criaTelaPreenchida(LIGHTGRAY, 5, 1, 100, 3);
-
-    textbackground(LIGHTGRAY);textcolor(BLACK);
-    gotoxy(7, 2);
-    printf("OBSERVACAO: %s", observacao);
-}
-
 void controleOpcaoSelecionada() {
     switch(opcaoSelecionada) {
         case 1:
             if (iniciarCadastro() == 1) {
-                apresentaErro("Cadastrar uma nova pessoa, tente novamente posteriormente.");
+                apresentaErro("Cadastrar uma nova pessoa, tente novamente.");
             } else {
                 apresentarSucesso("Cadastro de nova pessoa.");
             }
         break;
         case 2:
-            printf("Teste 3");
+            printf("Teste 2");
         break;
         case 3:
-            printf("Teste 3");
+            buscaGeral();
         break;
         case 4:
             printf("Teste 4");

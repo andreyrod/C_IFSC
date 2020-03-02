@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1582161570 source:c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+
+1581464937 source:c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_02\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	<stdarg.h>
+	"conio.h"
+
+1581464937 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_02\conio.h
+	<stdio.h>
+

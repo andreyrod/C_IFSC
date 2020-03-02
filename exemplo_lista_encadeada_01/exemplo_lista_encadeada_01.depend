@@ -50,3 +50,61 @@
 	<stdlib.h>
 	"conio.h"
 
+1581464937 source:c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	<stdarg.h>
+	"conio.h"
+
+1581464937 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\conio.h
+	<stdio.h>
+
+1581629767 source:c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"pessoa.h"
+	"listaEncadeada.h"
+	"tela.h"
+	"busca.h"
+	"menuCadastro.h"
+	"menuPrincipal.h"
+
+1581556523 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\pessoa.h
+
+1581482514 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\tela.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+
+1581630898 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\menucadastro.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"notification.h"
+
+1583185422 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\menuprincipal.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"notification.h"
+
+1581631018 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\listaencadeada.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+
+1581554121 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\notification.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+
+1581630316 c:\dev\git\ifsc\c_ifsc\exemplo_lista_encadeada_01\busca.h
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"notification.h"
+

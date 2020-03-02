@@ -6,17 +6,20 @@
 
 #include"conio.h"
 
+#include"notification.h"
+
 void montaLayoutFormCadastro() {
+    apresentaObservacao("SITUACAO: OK");
     criaTelaPreenchida(BLUE, 5, 6, 100, 2); //CABEÇALHO
     criaTelaPreenchida(CYAN, 5, 9, 100, 6); //CORPO
 
-    textbackground(BLUE);
+    textbackground(BLUE);textcolor(WHITE);
     gotoxy(7, 7);
     printf("CADASTRO DE NOVA PESSOA");
 
     textbackground(CYAN);textcolor(BLACK);
     gotoxy(7, 10);
-    printf("NOME: ");
+    printf("PRIMEIRO NOME: ");
     scanf("%s", &pessoa.nome);
     fflush(stdin);
 
@@ -34,18 +37,15 @@ void montaLayoutFormCadastro() {
     gotoxy(13, 12);
     scanf("%d", &pessoa.idade);
     fflush(stdin);
+
+    pessoa.identificador = ++identificadorAtual;
+    printf("%d", identificadorAtual);
 }
 
 int iniciarCadastro() {
     system("cls");
     montaLayoutFormCadastro();
-    if (pessoa.nome[0] == '\0' || pessoa.sobrenome[0] == '\0' || pessoa.idade == 0) {
-        restauraPadraoPessoa();
-        return 1;
-    } else {
-        restauraPadraoPessoa();
-        return 0;
-    }
+    return adicionaPessoaLista();
 }
 
 #endif // MENUCADASTRO_H_INCLUDED
